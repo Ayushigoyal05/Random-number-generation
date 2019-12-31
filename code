@@ -1,0 +1,10 @@
+import random
+c=random.randint(0,20)
+q=int(input("enter the number"))
+print("Number was: ",c)
+if(c>q):
+    print("Number guessed is too small")
+elif(c<q):
+    print("Number guessed is too high")
+else:
+    print("Right guess")
